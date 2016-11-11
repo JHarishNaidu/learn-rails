@@ -47,8 +47,8 @@ Rails.application.configure do
     domain: ENV["DOMAIN_NAME"],
     authentication: "plain",
     enable_starttls_auto: true,
-    user_name: ENV["mailchimpharish"],
-    password: ENV["mailchimptest"]
+    user_name: ENV["GMAIL_USERNAME"],
+    password: ENV["GMAIL_PASSWORD"]
   }
   
   # Send email in development mode.
